@@ -69,6 +69,12 @@
                                     </activityIndicatorView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HELP: Moscow, London and other" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIl-SR-eZh">
+                                <rect key="frame" x="59.5" y="148" width="256.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xvL-kn-5FD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -76,6 +82,8 @@
                             <constraint firstItem="ZvR-Kd-p11" firstAttribute="centerX" secondItem="3wh-0J-riz" secondAttribute="centerX" id="2kO-fN-5t3"/>
                             <constraint firstItem="gx3-wt-bHc" firstAttribute="centerX" secondItem="3wh-0J-riz" secondAttribute="centerX" id="CoO-r6-RIO"/>
                             <constraint firstItem="ZvR-Kd-p11" firstAttribute="top" secondItem="gx3-wt-bHc" secondAttribute="bottom" constant="16" id="aBy-Fa-ocn"/>
+                            <constraint firstItem="QIl-SR-eZh" firstAttribute="top" secondItem="xvL-kn-5FD" secondAttribute="top" constant="32" id="gp6-XJ-gy3"/>
+                            <constraint firstItem="QIl-SR-eZh" firstAttribute="centerX" secondItem="3wh-0J-riz" secondAttribute="centerX" id="u1E-WV-64r"/>
                             <constraint firstItem="ZvR-Kd-p11" firstAttribute="centerY" secondItem="3wh-0J-riz" secondAttribute="centerY" id="wAk-vM-jyS"/>
                         </constraints>
                     </view>
